@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-[#000]">
+  <nav class="fixed top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-lg z-50 shadow-lg">
+     <!-- Navbar -->
+     <nav id="navbar" class="fixed top-0 left-0 w-full opacity-0 z-50 py-6 px-10 flex justify-between items-center">
+      <!-- Logo -->
+      <a href="#" class="text-white text-xl font-semibold tracking-wide">Blobmixer</a>
+      
+      <!-- Links -->
+      <div class="flex space-x-10">
+          <a href="#" class="text-white text-lg font-light tracking-wide hover:opacity-80 transition">Try Mouse Wheel To Scroll</a>
+          <a href="#" class="text-white text-lg font-light tracking-wide hover:opacity-80 transition">About</a>
+      </div>
+  </nav>
+  </nav> <canvas class="w-full h-full fixed top-0 left-0" id="canvas"></canvas>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
