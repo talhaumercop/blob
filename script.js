@@ -105,9 +105,7 @@ new RGBELoader(loadingManager).load(
   (texture) => {
     texture.mapping = THREE.EquirectangularReflectionMapping;
     scene.environment = texture;
-  },
-  undefined,
-  (error) => console.error('Failed to load HDRI:', error)
+  }
 );
 
 // Uniforms for shader
@@ -140,7 +138,7 @@ window.addEventListener("load", () => {
 
 // Load texture first
 const textureLoader = new THREE.TextureLoader(loadingManager);
-textureLoader.load('/public/gradients/white.png', (texture) => {
+textureLoader.load('/gradients/white.png', (texture) => {
     console.log('Texture loaded:', texture);
     uniforms.uTexture.value = texture; // Set texture uniform
     
