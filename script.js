@@ -140,7 +140,7 @@ window.addEventListener("load", () => {
 
 // Load texture first
 const textureLoader = new THREE.TextureLoader(loadingManager);
-textureLoader.load('./images.jpg', (texture) => {
+textureLoader.load('/public/gradients/white.png', (texture) => {
     console.log('Texture loaded:', texture);
     uniforms.uTexture.value = texture; // Set texture uniform
     
