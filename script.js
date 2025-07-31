@@ -17,7 +17,7 @@ const blobs = [
   {
       name: 'Purple Mirror',
       background: '#5300B1',
-      config: { "uPositionFrequency": 0.6, "uPositionStrength": 0.8, "uSmallWavePositionFrequency": 1.5, "uSmallWavePositionStrength": 0.3, "roughness": 0.2, "metalness": 0.8, "envMapIntensity": 1.8, "clearcoat": 0.7, "clearcoatRoughness": 0.1, "transmission": 0.1, "flatShading": false, "wireframe": false, "map": "pink-floyd" },
+      config: { "uPositionFrequency": 0.6, "uPositionStrength": 0.8, "uSmallWavePositionFrequency": 1.5, "uSmallWavePositionStrength": 0.3, "roughness": 0.2, "metalness": 0.8, "envMapIntensity": 1.8, "clearcoat": 0.7, "clearcoatRoughness": 0.1, "transmission": 0.1, "flatShading": false, "wireframe": false, "map": "cosmic-fusion" },
   },
   {
     name: 'Color Fusion',
@@ -47,7 +47,7 @@ const blobs = [
 {
   name: 'Passion',
   background: '#345E24',
-  config: { "uPositionFrequency": 1.8, "uPositionStrength": 0.9, "uSmallWavePositionFrequency": 2.0, "uSmallWavePositionStrength": 0.5, "roughness": 0.1, "metalness": 0.9, "envMapIntensity": 2.5, "clearcoat": 0.8, "clearcoatRoughness": 0.1, "transmission": 0.3, "flatShading": false, "wireframe": false, "map": "passion" },
+  config: { "uPositionFrequency": 1.8, "uPositionStrength": 0.9, "uSmallWavePositionFrequency": 2.0, "uSmallWavePositionStrength": 0.5, "roughness": 0.1, "metalness": 0.9, "envMapIntensity": 2.5, "clearcoat": 0.8, "clearcoatRoughness": 0.1, "transmission": 0.3, "flatShading": false, "wireframe": true, "map": "passion" },
 },
 
 ];
