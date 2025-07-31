@@ -105,7 +105,7 @@ new RGBELoader(loadingManager).load(
   (texture) => {
     texture.mapping = THREE.EquirectangularReflectionMapping;
     scene.environment = texture;
-  }
+  },
 );
 
 // Uniforms for shader
